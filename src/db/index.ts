@@ -1,11 +1,11 @@
 import { drizzle } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
 
-const databaseUrl = process.env.DATABASE_URL;
-
-if (!databaseUrl) {
-  throw new Error("DATABASE_URL is required");
-}
+// Keep module loading safe during builds. A real DATABASE_URL is required
+// when the site/admin/API actually talks to the database at runtime.
+const databaseUrl =
+  process.env.DATABASE_URL ??
+  "postgresql://invalid:invalid@127.0.0.1:5432/invalid";
 
 const globalForDb = globalThis as typeof globalThis & {
   __arenaNextJsPostgresqlPool?: Pool;
