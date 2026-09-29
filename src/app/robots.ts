@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const base = "https://rootdirect.hk";
+const base = "https://rootdirect.example";
 
 export default function robots(): MetadataRoute.Robots {
   return {
