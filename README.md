@@ -1,22 +1,50 @@
-# GrownDirect Website
+# GrownDirect Website — Render Free + GitHub CMS
 
-Next.js website project exported from Arena AI and prepared for GitHub.
+Next.js website prepared for GitHub + Render Free.
 
-## GitHub safety
+## How content updates work
 
-- Secrets are supplied through environment variables and are not committed.
-- `.env*` files are ignored, except `.env.example`.
-- `node_modules` and Next.js build output are ignored.
+The public website is deployed by Render from GitHub.
+The `/admin` page is a small password-protected CMS.
 
-## Required environment variables
+When you replace a banner or vegetable photo:
 
-Copy `.env.example` to `.env.local` and set:
+1. The image is resized in the browser.
+2. The admin API uploads the image to the GitHub repository.
+3. The CMS data is updated in `src/content/cms.json`.
+4. Both are saved in one Git commit.
+5. Render sees the GitHub commit and automatically redeploys.
 
-- `DATABASE_URL`
-- `ADMIN_SECRET`
-- `ADMIN_PASSWORD`
+Render's local disk does not need to be persistent.
 
-Do not put real values in GitHub.
+## Render environment variables
+
+Set these in Render → your service → Environment:
+
+- `ADMIN_SECRET` — long random secret used for the admin session token.
+- `ADMIN_PASSWORD` — the password used at `/admin`.
+- `GITHUB_TOKEN` — fine-grained GitHub token with Contents: Read and write for this repository.
+- `GITHUB_OWNER` — `789freshveg`
+- `GITHUB_REPO` — `rootdirect.hk`
+- `GITHUB_BRANCH` — `main`
+
+No `DATABASE_URL` is required.
+
+## Admin
+
+Open `/admin` after deployment.
+
+The CMS supports:
+
+- Hero images
+- Seasonal vegetables
+- Individual products
+- Partner farms
+- Payment images and text
+- Gallery images
+- Add / delete / reorder / show-hide where supported
+
+Normal photo/content updates do not require editing source code.
 
 ## Local development
 
@@ -25,8 +53,8 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+## Build
 
-## GitHub
-
-The repository root is this folder. Upload these files directly into the root of a new GitHub repository; do not upload the ZIP as the repository contents.
+```bash
+npm run build
+```

@@ -323,8 +323,10 @@ export function AdminConsole() {
       });
       const json = await res.json();
       if (!res.ok) throw new Error(json.error ?? "儲存失敗");
-      setStatus("已儲存變更");
-      await load();
+      setStatus(json.message ?? "已儲存變更");
+      if (Array.isArray(json.rows)) {
+        setRows(tab, json.rows as Data[typeof tab]);
+      }
     } catch (e) {
       setStatus(e instanceof Error ? e.message : "儲存失敗");
     } finally {
@@ -369,7 +371,7 @@ export function AdminConsole() {
       <div className="flex min-h-screen items-center justify-center bg-paper px-5">
         <form onSubmit={login} className="w-full max-w-sm border hairline bg-white p-8">
           <p className="roman text-[10px] uppercase tracking-[0.3em] text-olive">
-            Root Direct — CMS
+            GrownDirect — CMS
           </p>
           <h1 className="mt-3 font-serif text-[34px] font-black tracking-[0.08em] text-ink">
             內容管理
