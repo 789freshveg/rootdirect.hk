@@ -196,7 +196,7 @@
   "gallery": [
     {
       "id": 1,
-      "src": "images/about-harvest.jpg",
+      "src": "/uploads/admin/gallery-1790777957141-6e687e34-c4e6-4847-91f8-7640142e7e63.jpg",
       "caption": "清晨採收",
       "visible": true
     },
@@ -214,7 +214,7 @@
     },
     {
       "id": 4,
-      "src": "images/about-seed.jpg",
+      "src": "/uploads/admin/gallery-1790777304689-fb2cc3b8-febb-4213-8760-32d68a7a6131.jpg",
       "caption": "育苗",
       "visible": true
     },
