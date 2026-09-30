@@ -151,20 +151,20 @@
   "farms": [
     {
       "id": 1,
-      "name": "康苗有機農場",
+      "name": "Testing 康苗有機農場",
       "description": "位於錦田大江埔，由農夫昌哥耕耘超過 25 年，並獲作物生產有機認證（IFOAM 認可）。他一直鑽研有機及「再生農耕」，從自製有機魚肥、養土護泥到使用有機覆蓋物，細心照顧土地與作物。\n\n農場重視時令種植，按季節種植不同蔬菜，讓土地保持生機，也讓大家品嚐當造蔬菜的自然鮮甜。",
       "images": [
-        "images/farm.jpg",
+        "/uploads/admin/farms-1790777280945-f70f1c12-8c38-40e3-8f6b-39c049ff5483.jpg",
         "images/veg-02.jpg"
       ],
       "visible": true
     },
     {
       "id": 2,
-      "name": "Eva 新鳳有機農場",
+      "name": "Testing Eva 新鳳有機農場",
       "description": "Eva 新鳳有機農場是香港少數實踐再生農耕的農場之一，並列於「食本地鮮 Eat Local」漁場農場會員名單。農夫 Eva 以健康土壤為起點，減少耕犁，善用有機肥料、覆蓋作物及多元生態，讓土地逐步恢復活力，種出強壯、健康、帶有自然香味的農作物。\n\n農場亦與不同學校合作，向學生介紹再生農耕，推廣珍惜食物及尊重土地的生活理念，讓更多人了解食物從農田到餐桌的過程。",
       "images": [
-        "images/about-harvest.jpg",
+        "/uploads/admin/farms-1790777283984-b5a390dc-f1f4-42e4-8482-b8bedbb1843d.jpg",
         "images/veg-01.jpg"
       ],
       "visible": true
