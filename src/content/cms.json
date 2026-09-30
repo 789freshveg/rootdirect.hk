@@ -2,8 +2,8 @@
   "hero": [
     {
       "id": 1,
-      "src": "/uploads/admin/hero-1790775163171-04c74b7c-019f-4525-aa3b-c9c572a29c54.jpg",
-      "alt": "Testing 清晨的香港農田與菜田",
+      "src": "/uploads/admin/hero-1790775082983-08033a9e-9477-434a-b3ec-a619f919cc74.jpg",
+      "alt": "清晨的香港農田與菜田",
       "visible": true
     },
     {
@@ -16,8 +16,8 @@
   "seasonal": [
     {
       "id": 1,
-      "name": "菜心",
-      "src": "images/veg-01.jpg",
+      "name": "Test 菜心",
+      "src": "/uploads/admin/seasonal-1790775201356-dda306b4-2807-4312-8aa0-8a93f4baa55a.jpg",
       "period": "current",
       "visible": true
     },
