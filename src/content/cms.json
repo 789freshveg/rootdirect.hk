@@ -74,9 +74,9 @@
   "products": [
     {
       "id": 1,
-      "name": "菜心",
+      "name": "Test 菜心",
       "price": "$28 / 斤 (600g)",
-      "src": "images/veg-01.jpg",
+      "src": "/uploads/admin/products-1790775406363-d73fa5fc-8393-4714-9c18-180f890ace00.jpg",
       "visible": true
     },
     {
