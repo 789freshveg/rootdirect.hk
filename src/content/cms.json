@@ -2,14 +2,19 @@
   "hero": [
     {
       "id": 1,
-      "src": "/uploads/admin/hero-1790775082983-08033a9e-9477-434a-b3ec-a619f919cc74.jpg",
+      "src": "/uploads/admin/hero-1790775163171-04c74b7c-019f-4525-aa3b-c9c572a29c54.jpg",
       "alt": "清晨的香港農田與菜田",
       "visible": true
     },
     {
       "id": 2,
-      "src": "images/hero-02.jpg",
+      "src": "/uploads/admin/hero-1790776941943-2f6ec2e2-c782-4cf2-a728-aa57efce8fce.jpg",
       "alt": "農夫清晨採摘鮮菜",
+      "visible": true
+    },
+    {
+      "src": "/uploads/admin/hero-1790776944391-a8e66653-2be1-4e3b-80a7-28d7780cf922.jpg",
+      "alt": "",
       "visible": true
     }
   ],
