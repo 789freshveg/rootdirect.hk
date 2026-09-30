@@ -1,59 +1,241 @@
 {
   "hero": [
-    { "id": 1, "src": "images/hero-01.jpg", "alt": "清晨的香港農田與菜田", "visible": true },
-    { "id": 2, "src": "images/hero-02.jpg", "alt": "農夫清晨採摘鮮菜", "visible": true }
+    {
+      "id": 1,
+      "src": "/uploads/admin/hero-1790775082983-08033a9e-9477-434a-b3ec-a619f919cc74.jpg",
+      "alt": "清晨的香港農田與菜田",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "src": "images/hero-02.jpg",
+      "alt": "農夫清晨採摘鮮菜",
+      "visible": true
+    }
   ],
   "seasonal": [
-    { "id": 1, "name": "菜心", "src": "images/veg-01.jpg", "period": "current", "visible": true },
-    { "id": 2, "name": "芥蘭", "src": "images/veg-02.jpg", "period": "current", "visible": true },
-    { "id": 3, "name": "南瓜", "src": "images/about-land.jpg", "period": "current", "visible": true },
-    { "id": 4, "name": "本地蘿蔔", "src": "images/veg-01.jpg", "period": "current", "visible": true },
-    { "id": 5, "name": "茼蒿", "src": "images/veg-02.jpg", "period": "current", "visible": true },
-    { "id": 6, "name": "白菜", "src": "images/hero-02.jpg", "period": "current", "visible": true },
-    { "id": 7, "name": "菠菜", "src": "images/veg-01.jpg", "period": "next", "visible": true },
-    { "id": 8, "name": "西蘭花", "src": "images/veg-02.jpg", "period": "next", "visible": true }
+    {
+      "id": 1,
+      "name": "菜心",
+      "src": "images/veg-01.jpg",
+      "period": "current",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "name": "芥蘭",
+      "src": "images/veg-02.jpg",
+      "period": "current",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "南瓜",
+      "src": "images/about-land.jpg",
+      "period": "current",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "name": "本地蘿蔔",
+      "src": "images/veg-01.jpg",
+      "period": "current",
+      "visible": true
+    },
+    {
+      "id": 5,
+      "name": "茼蒿",
+      "src": "images/veg-02.jpg",
+      "period": "current",
+      "visible": true
+    },
+    {
+      "id": 6,
+      "name": "白菜",
+      "src": "images/hero-02.jpg",
+      "period": "current",
+      "visible": true
+    },
+    {
+      "id": 7,
+      "name": "菠菜",
+      "src": "images/veg-01.jpg",
+      "period": "next",
+      "visible": true
+    },
+    {
+      "id": 8,
+      "name": "西蘭花",
+      "src": "images/veg-02.jpg",
+      "period": "next",
+      "visible": true
+    }
   ],
   "products": [
-    { "id": 1, "name": "菜心", "price": "$28 / 斤 (600g)", "src": "images/veg-01.jpg", "visible": true },
-    { "id": 2, "name": "芥蘭", "price": "$32 / 斤 (600g)", "src": "images/veg-02.jpg", "visible": true },
-    { "id": 3, "name": "茼蒿", "price": "$30 / 斤 (600g)", "src": "images/hero-02.jpg", "visible": true },
-    { "id": 4, "name": "南瓜", "price": "$25 / 斤 (600g)", "src": "images/about-land.jpg", "visible": true },
-    { "id": 5, "name": "本地蘿蔔", "price": "$22 / 斤 (600g)", "src": "images/veg-01.jpg", "visible": true },
-    { "id": 6, "name": "白菜", "price": "$26 / 斤 (600g)", "src": "images/veg-02.jpg", "visible": true },
-    { "id": 7, "name": "生菜", "price": "$24 / 斤 (600g)", "src": "images/veg-02.jpg", "visible": true },
-    { "id": 8, "name": "菠菜", "price": "$30 / 斤 (600g)", "src": "images/veg-01.jpg", "visible": true },
-    { "id": 9, "name": "西蘭花", "price": "$36 / 斤 (600g)", "src": "images/about-harvest.jpg", "visible": true },
-    { "id": 10, "name": "翠玉瓜", "price": "$28 / 斤 (600g)", "src": "images/about-land.jpg", "visible": true }
+    {
+      "id": 1,
+      "name": "菜心",
+      "price": "$28 / 斤 (600g)",
+      "src": "images/veg-01.jpg",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "name": "芥蘭",
+      "price": "$32 / 斤 (600g)",
+      "src": "images/veg-02.jpg",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "name": "茼蒿",
+      "price": "$30 / 斤 (600g)",
+      "src": "images/hero-02.jpg",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "name": "南瓜",
+      "price": "$25 / 斤 (600g)",
+      "src": "images/about-land.jpg",
+      "visible": true
+    },
+    {
+      "id": 5,
+      "name": "本地蘿蔔",
+      "price": "$22 / 斤 (600g)",
+      "src": "images/veg-01.jpg",
+      "visible": true
+    },
+    {
+      "id": 6,
+      "name": "白菜",
+      "price": "$26 / 斤 (600g)",
+      "src": "images/veg-02.jpg",
+      "visible": true
+    },
+    {
+      "id": 7,
+      "name": "生菜",
+      "price": "$24 / 斤 (600g)",
+      "src": "images/veg-02.jpg",
+      "visible": true
+    },
+    {
+      "id": 8,
+      "name": "菠菜",
+      "price": "$30 / 斤 (600g)",
+      "src": "images/veg-01.jpg",
+      "visible": true
+    },
+    {
+      "id": 9,
+      "name": "西蘭花",
+      "price": "$36 / 斤 (600g)",
+      "src": "images/about-harvest.jpg",
+      "visible": true
+    },
+    {
+      "id": 10,
+      "name": "翠玉瓜",
+      "price": "$28 / 斤 (600g)",
+      "src": "images/about-land.jpg",
+      "visible": true
+    }
   ],
   "farms": [
     {
       "id": 1,
       "name": "康苗有機農場",
       "description": "位於錦田大江埔，由農夫昌哥耕耘超過 25 年，並獲作物生產有機認證（IFOAM 認可）。他一直鑽研有機及「再生農耕」，從自製有機魚肥、養土護泥到使用有機覆蓋物，細心照顧土地與作物。\n\n農場重視時令種植，按季節種植不同蔬菜，讓土地保持生機，也讓大家品嚐當造蔬菜的自然鮮甜。",
-      "images": ["images/farm.jpg", "images/veg-02.jpg"],
+      "images": [
+        "images/farm.jpg",
+        "images/veg-02.jpg"
+      ],
       "visible": true
     },
     {
       "id": 2,
       "name": "Eva 新鳳有機農場",
       "description": "Eva 新鳳有機農場是香港少數實踐再生農耕的農場之一，並列於「食本地鮮 Eat Local」漁場農場會員名單。農夫 Eva 以健康土壤為起點，減少耕犁，善用有機肥料、覆蓋作物及多元生態，讓土地逐步恢復活力，種出強壯、健康、帶有自然香味的農作物。\n\n農場亦與不同學校合作，向學生介紹再生農耕，推廣珍惜食物及尊重土地的生活理念，讓更多人了解食物從農田到餐桌的過程。",
-      "images": ["images/about-harvest.jpg", "images/veg-01.jpg"],
+      "images": [
+        "images/about-harvest.jpg",
+        "images/veg-01.jpg"
+      ],
       "visible": true
     }
   ],
   "payments": [
-    { "id": 1, "key": "bank", "name": "銀行轉賬", "detail": "", "image": "images/payments/bank.png" },
-    { "id": 2, "key": "fps", "name": "轉數快 FPS", "detail": "", "image": "images/payments/fps.png" },
-    { "id": 3, "key": "payme", "name": "PayMe", "detail": "", "image": "images/payments/payme.png" }
+    {
+      "id": 1,
+      "key": "bank",
+      "name": "銀行轉賬",
+      "detail": "",
+      "image": "images/payments/bank.png"
+    },
+    {
+      "id": 2,
+      "key": "fps",
+      "name": "轉數快 FPS",
+      "detail": "",
+      "image": "images/payments/fps.png"
+    },
+    {
+      "id": 3,
+      "key": "payme",
+      "name": "PayMe",
+      "detail": "",
+      "image": "images/payments/payme.png"
+    }
   ],
   "gallery": [
-    { "id": 1, "src": "images/about-harvest.jpg", "caption": "清晨採收", "visible": true },
-    { "id": 2, "src": "images/veg-02.jpg", "caption": "當季葉菜", "visible": true },
-    { "id": 3, "src": "images/farm.jpg", "caption": "田間日常", "visible": true },
-    { "id": 4, "src": "images/about-seed.jpg", "caption": "育苗", "visible": true },
-    { "id": 5, "src": "images/hero-02.jpg", "caption": "帶土直送", "visible": true },
-    { "id": 6, "src": "images/veg-01.jpg", "caption": "菜包內容", "visible": true },
-    { "id": 7, "src": "images/about-land.jpg", "caption": "雨後農田", "visible": true },
-    { "id": 8, "src": "images/about-table.jpg", "caption": "餐桌上的當造", "visible": true }
+    {
+      "id": 1,
+      "src": "images/about-harvest.jpg",
+      "caption": "清晨採收",
+      "visible": true
+    },
+    {
+      "id": 2,
+      "src": "images/veg-02.jpg",
+      "caption": "當季葉菜",
+      "visible": true
+    },
+    {
+      "id": 3,
+      "src": "images/farm.jpg",
+      "caption": "田間日常",
+      "visible": true
+    },
+    {
+      "id": 4,
+      "src": "images/about-seed.jpg",
+      "caption": "育苗",
+      "visible": true
+    },
+    {
+      "id": 5,
+      "src": "images/hero-02.jpg",
+      "caption": "帶土直送",
+      "visible": true
+    },
+    {
+      "id": 6,
+      "src": "images/veg-01.jpg",
+      "caption": "菜包內容",
+      "visible": true
+    },
+    {
+      "id": 7,
+      "src": "images/about-land.jpg",
+      "caption": "雨後農田",
+      "visible": true
+    },
+    {
+      "id": 8,
+      "src": "images/about-table.jpg",
+      "caption": "餐桌上的當造",
+      "visible": true
+    }
   ]
 }
