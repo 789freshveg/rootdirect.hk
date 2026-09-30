@@ -176,7 +176,7 @@
       "key": "bank",
       "name": "銀行轉賬",
       "detail": "",
-      "image": "images/payments/bank.png"
+      "image": "/uploads/admin/payments-1790777328802-c8a44bc6-1241-43b7-8975-b1ee5562c025.jpg"
     },
     {
       "id": 2,
@@ -214,7 +214,7 @@
     },
     {
       "id": 4,
-      "src": "/uploads/admin/gallery-1790777304689-fb2cc3b8-febb-4213-8760-32d68a7a6131.jpg",
+      "src": "images/about-seed.jpg",
       "caption": "育苗",
       "visible": true
     },
