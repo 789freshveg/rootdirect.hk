@@ -57,7 +57,7 @@ type TabKey = (typeof TABS)[number]["key"];
 
 /* --------------------------------------------------------------- helpers */
 
-function fileToDataUrl(file: File, max = 2400): Promise<string> {
+function fileToDataUrl(file: File, max = 1800): Promise<string> {
   return new Promise((resolve, reject) => {
     const url = URL.createObjectURL(file);
     const img = new Image();
@@ -103,7 +103,7 @@ function fileToDataUrl(file: File, max = 2400): Promise<string> {
       ctx.drawImage(img, 0, 0, w, h);
       URL.revokeObjectURL(url);
 
-      resolve(canvas.toDataURL("image/jpeg", 0.92));
+      resolve(canvas.toDataURL("image/jpeg", 0.85));
     };
 
     img.onerror = () => {
