@@ -57,31 +57,60 @@ type TabKey = (typeof TABS)[number]["key"];
 
 /* --------------------------------------------------------------- helpers */
 
-function fileToDataUrl(file: File, max = 1400): Promise<string> {
+function fileToDataUrl(file: File, max = 2400): Promise<string> {
   return new Promise((resolve, reject) => {
     const url = URL.createObjectURL(file);
     const img = new Image();
+
     img.onload = () => {
       const scale = Math.min(1, max / img.width);
+
+      // If the image is already small enough,
+      // keep the ORIGINAL file to preserve colour and quality.
+      if (scale >= 1) {
+        const reader = new FileReader();
+
+        reader.onload = () => {
+          URL.revokeObjectURL(url);
+          resolve(reader.result as string);
+        };
+
+        reader.onerror = () => {
+          URL.revokeObjectURL(url);
+          reject(new Error("圖片讀取失敗"));
+        };
+
+        reader.readAsDataURL(file);
+        return;
+      }
+
+      // Only resize very large images.
       const w = Math.max(1, Math.round(img.width * scale));
       const h = Math.max(1, Math.round(img.height * scale));
+
       const canvas = document.createElement("canvas");
       canvas.width = w;
       canvas.height = h;
+
       const ctx = canvas.getContext("2d");
+
       if (!ctx) {
         URL.revokeObjectURL(url);
         reject(new Error("瀏覽器不支援圖片處理"));
         return;
       }
+
       ctx.drawImage(img, 0, 0, w, h);
       URL.revokeObjectURL(url);
-      resolve(canvas.toDataURL("image/jpeg", 0.82));
+
+      resolve(canvas.toDataURL("image/jpeg", 0.92));
     };
+
     img.onerror = () => {
       URL.revokeObjectURL(url);
       reject(new Error("圖片讀取失敗"));
     };
+
     img.src = url;
   });
 }
