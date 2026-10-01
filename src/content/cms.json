@@ -9,7 +9,7 @@
     {
       "id": 2,
       "src": "/uploads/admin/hero-1790867075366-718a6e14-017e-4922-818d-cedb4a2b4071.jpg",
-      "alt": "有藤有葉的黃瓜",
+      "alt": "有藤有葉有花的黃瓜",
       "visible": true
     },
     {
@@ -28,8 +28,8 @@
     },
     {
       "id": 2,
-      "name": "芥蘭",
-      "src": "images/veg-02.jpg",
+      "name": "絲瓜",
+      "src": "/uploads/admin/seasonal-1790867587914-f736fd07-7bf8-4e50-b6fe-687a9f7e457a.jpg",
       "period": "current",
       "visible": true
     },
