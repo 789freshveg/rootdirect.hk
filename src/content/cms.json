@@ -9,11 +9,11 @@
     {
       "id": 2,
       "src": "/uploads/admin/hero-1790867075366-718a6e14-017e-4922-818d-cedb4a2b4071.jpg",
-      "alt": "有藤有葉有花的黃瓜",
+      "alt": "有藤有葉的黃瓜",
       "visible": true
     },
     {
-      "src": "/uploads/admin/hero-1790867208963-fda73549-c717-4c32-b7e1-64545a8a66b8.jpg",
+      "src": "/uploads/admin/hero-1790867076983-2cbaa605-b715-45c7-9722-4d05ce1b41a5.jpg",
       "alt": "小菜苗的成長",
       "visible": true
     }
@@ -21,8 +21,8 @@
   "seasonal": [
     {
       "id": 1,
-      "name": "Test 菜心",
-      "src": "/uploads/admin/seasonal-1790775241070-a916f378-184d-4ade-b971-07ad1feaa967.jpg",
+      "name": "茄子",
+      "src": "/uploads/admin/seasonal-1790867291834-fcf6b4e4-e437-457d-940c-8a15c933a73a.jpg",
       "period": "current",
       "visible": true
     },
