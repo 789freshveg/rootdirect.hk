@@ -9,7 +9,7 @@
     {
       "id": 2,
       "src": "/uploads/admin/hero-1790867075366-718a6e14-017e-4922-818d-cedb4a2b4071.jpg",
-      "alt": "有藤有葉有花的黃瓜",
+      "alt": "有藤有葉的黃瓜",
       "visible": true
     },
     {
@@ -35,8 +35,8 @@
     },
     {
       "id": 3,
-      "name": "南瓜",
-      "src": "images/about-land.jpg",
+      "name": "白瓜",
+      "src": "/uploads/admin/seasonal-1790867641619-96b39963-2d42-4575-ab55-949d059fab77.jpg",
       "period": "current",
       "visible": true
     },
