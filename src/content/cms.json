@@ -36,7 +36,7 @@
     {
       "id": 3,
       "name": "白瓜",
-      "src": "/uploads/admin/seasonal-1790951805658-7979087e-d545-4dab-bf73-433e2d30dfcc.jpg",
+      "src": "/uploads/admin/seasonal-1790955185875-dc09b4fa-9fa3-4b90-8edf-2666884f4e44.jpg",
       "period": "current",
       "visible": true
     },
@@ -52,26 +52,26 @@
       "name": "茼蒿",
       "src": "images/veg-02.jpg",
       "period": "current",
-      "visible": true
+      "visible": false
     },
     {
       "id": 6,
       "name": "白菜",
       "src": "images/hero-02.jpg",
       "period": "current",
-      "visible": true
+      "visible": false
     },
     {
       "id": 7,
-      "name": "菠菜",
-      "src": "images/veg-01.jpg",
+      "name": "蘿蔔",
+      "src": "/uploads/admin/seasonal-1790955187260-1d382ef3-e25b-48e0-9dab-6087dffad2d9.jpg",
       "period": "next",
       "visible": true
     },
     {
       "id": 8,
-      "name": "西蘭花",
-      "src": "/uploads/admin/seasonal-1790776721217-d1bf7f9b-8e5e-4573-a8d3-7a194e50578c.jpg",
+      "name": "大蕃茄",
+      "src": "/uploads/admin/seasonal-1790955188897-95469c0b-4a78-434d-8ef5-0b74b6786e58.jpg",
       "period": "next",
       "visible": true
     }
