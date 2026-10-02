@@ -79,23 +79,23 @@
   "products": [
     {
       "id": 1,
-      "name": "Test 菜心",
-      "price": "$28 / 斤 (600g)",
-      "src": "/uploads/admin/products-1790775406363-d73fa5fc-8393-4714-9c18-180f890ace00.jpg",
+      "name": "絲瓜",
+      "price": "$60 / 斤 (600g)",
+      "src": "/uploads/admin/products-1790955609729-a3d66653-d6ba-4a79-b9b5-b82c34a4f0d0.jpg",
       "visible": true
     },
     {
       "id": 2,
-      "name": "芥蘭",
-      "price": "$32 / 斤 (600g)",
-      "src": "images/veg-02.jpg",
+      "name": "茄子",
+      "price": "$60 / 斤 (600g)",
+      "src": "/uploads/admin/products-1790955611643-6039b7b2-6a56-4a93-afc0-93614dac5e90.jpg",
       "visible": true
     },
     {
       "id": 3,
-      "name": "茼蒿",
-      "price": "$30 / 斤 (600g)",
-      "src": "images/hero-02.jpg",
+      "name": "白瓜",
+      "price": "$60 / 斤 (600g)",
+      "src": "/uploads/admin/products-1790955613520-2a103208-5a5a-42b9-86cc-5bb07805a776.jpg",
       "visible": true
     },
     {
@@ -124,28 +124,28 @@
       "name": "生菜",
       "price": "$24 / 斤 (600g)",
       "src": "images/veg-02.jpg",
-      "visible": true
+      "visible": false
     },
     {
       "id": 8,
       "name": "菠菜",
       "price": "$30 / 斤 (600g)",
       "src": "images/veg-01.jpg",
-      "visible": true
+      "visible": false
     },
     {
       "id": 9,
       "name": "西蘭花",
       "price": "$36 / 斤 (600g)",
       "src": "images/about-harvest.jpg",
-      "visible": true
+      "visible": false
     },
     {
       "id": 10,
       "name": "翠玉瓜",
       "price": "$28 / 斤 (600g)",
       "src": "images/about-land.jpg",
-      "visible": true
+      "visible": false
     }
   ],
   "farms": [
