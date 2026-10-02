@@ -78,17 +78,17 @@
   ],
   "products": [
     {
-      "id": 1,
-      "name": "絲瓜",
-      "price": "$60 / 斤 (600g)",
-      "src": "/uploads/admin/products-1790955609729-a3d66653-d6ba-4a79-b9b5-b82c34a4f0d0.jpg",
-      "visible": true
-    },
-    {
       "id": 2,
       "name": "茄子",
       "price": "$60 / 斤 (600g)",
       "src": "/uploads/admin/products-1790955611643-6039b7b2-6a56-4a93-afc0-93614dac5e90.jpg",
+      "visible": true
+    },
+    {
+      "id": 1,
+      "name": "絲瓜",
+      "price": "$60 / 斤 (600g)",
+      "src": "/uploads/admin/products-1790955609729-a3d66653-d6ba-4a79-b9b5-b82c34a4f0d0.jpg",
       "visible": true
     },
     {
