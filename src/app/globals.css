@@ -71,7 +71,7 @@ body {
 /* --- photography treatment: one shoot, one art direction ------------ */
 
 .plate img {
-  filter: saturate(0.62) contrast(1.04) brightness(0.99);
+  filter: none;
 }
 
 .plate-mono img {
