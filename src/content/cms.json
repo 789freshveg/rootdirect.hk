@@ -50,14 +50,14 @@
     {
       "id": 5,
       "name": "茼蒿",
-      "src": "images/veg-02.jpg",
+      "src": "",
       "period": "current",
       "visible": false
     },
     {
       "id": 6,
       "name": "白菜",
-      "src": "images/hero-02.jpg",
+      "src": "",
       "period": "current",
       "visible": false
     },
