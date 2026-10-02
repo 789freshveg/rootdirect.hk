@@ -103,21 +103,21 @@
       "name": "南瓜",
       "price": "$25 / 斤 (600g)",
       "src": "images/about-land.jpg",
-      "visible": true
+      "visible": false
     },
     {
       "id": 5,
       "name": "本地蘿蔔",
       "price": "$22 / 斤 (600g)",
       "src": "images/veg-01.jpg",
-      "visible": true
+      "visible": false
     },
     {
       "id": 6,
       "name": "白菜",
       "price": "$26 / 斤 (600g)",
       "src": "images/veg-02.jpg",
-      "visible": true
+      "visible": false
     },
     {
       "id": 7,
