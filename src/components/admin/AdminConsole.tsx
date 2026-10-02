@@ -103,7 +103,7 @@ function fileToDataUrl(file: File, max = 1800): Promise<string> {
       ctx.drawImage(img, 0, 0, w, h);
       URL.revokeObjectURL(url);
 
-      resolve(canvas.toDataURL("image/jpeg", 0.85));
+      resolve(canvas.toDataURL("image/jpeg", 1));
     };
 
     img.onerror = () => {
