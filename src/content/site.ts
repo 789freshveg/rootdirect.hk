@@ -49,7 +49,7 @@ export const footerNav = [
 
 export const hero = {
   eyebrow: "回歸食物本質",
-  headline: "本地新鮮蔬菜，農場直送餐桌",
+  headline: "本地新鮮蔬菜，\n農場直送餐桌",
   cta: "立即訂購",
 } as const;
 
@@ -72,11 +72,11 @@ export const sellingPoints = [
 ] as const;
 
 export const seasonal = {
-  title: "11月菜包",
-  en: "November Package",
+  title: "本季菜包",
+  en: "Seasonal Package",
   /** Highlighted in the copy — key selling information. */
   highlight: "3 款以上",
-  currentCopy: "農場發辦，為你搭配 3 款以上時令蔬菜。清晨採摘，新鮮直送！",
+  currentCopy: "農場發辦，為你搭配 3 款以上時令蔬菜。\n清晨採摘，新鮮直送！",
   nextLabel: "下月預告",
   notice:
     "菜包內容或因天氣及收成調整，詳情請留意 Instagram、Facebook 或 WhatsApp 查詢。",
@@ -86,7 +86,7 @@ export const seasonal = {
 export const items = {
   title: "獨立菜款",
   en: "By the Item",
-  note: "部分菜款亦可單獨購買，歡迎填寫表格訂購。",
+  note: "以下菜款可單獨購買，歡迎填寫表格訂購。",
 } as const;
 
 export const boxPreview = {
@@ -110,16 +110,16 @@ export const farmStory = {
 export const delivery = {
   title: "運送安排",
   en: "Delivery",
-  headline: "星期一截單，星期三清晨採摘，直送餐桌",
+  headline: "星期一截單 ｜ 星期三清晨採摘，直送餐桌",
   steps: [
     { day: "MON", label: "星期一", detail: "20:00 截單" },
     { day: "WED", label: "星期三", detail: "清晨採摘" },
-    { day: "WED", label: "星期三", detail: "11:00–17:00 直送" },
+    { day: "WED", label: "星期三", detail: "11:00–17:00 直送餐桌" },
   ],
   notes: [
     "如星期三為公眾假期，順延至星期四送達。",
     "配送範圍：香港島、九龍及新界。",
-    "到達前司機會以電話／WhatsApp 通知。",
+    "到達前司機會以電話/WhatsApp 通知。",
     "菜包送至大廈管理處，或送到住所附近停車處自取。",
     "偏遠及離島地區暫不設配送。個別地區可 WhatsApp 另議。",
   ],
@@ -263,7 +263,7 @@ export const about = {
       "黑雨前無處銷售的南瓜，",
       "以及錯過花期的年花。",
       "重新連結「有心種 × 有心買」，",
-      "讓每一份收成，都有機會找到懂得珍惜的人。",
+      "讓每份收成，有機會找到懂得珍惜的人。",
     ],
     caption: "ORIGIN — 源起",
   },
@@ -279,7 +279,7 @@ export const about = {
   belief: {
     heading: "睇得到的信任",
     body: [
-      "我們用真實食物與農夫日常，取代過度包裝。",
+      "用真實食物與農夫日常，取代過度包裝。",
       "透過記錄農場日常及分享農夫故事，讓顧客看見每份收成背後的努力，也讓農夫得到更直接、合理的回報。",
     ],
     caption: "BELIEF — 信念",
@@ -311,7 +311,7 @@ export const about = {
     body: [
       "再生農耕蔬菜的價值，在於農夫願意投入更多時間與心力，照顧土壤、觀察作物，維持農場的生態平衡。",
       "從使用堆肥、減少翻土，到種植覆蓋作物、保留生物多樣性，每一步都需長期投入資源，讓土地逐步恢復活力，同時減少農業對環境的負擔。",
-      "健康的土壤，才能孕育出質感更好、味道更自然的蔬菜。好味，沒有捷徑。",
+      "健康的土壤，孕育出質感更好、味道更自然的蔬菜。好味，沒有捷徑。",
     ],
     /** Emphasised in the closing line. */
     highlight: "好味，沒有捷徑。",
