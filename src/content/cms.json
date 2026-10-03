@@ -100,42 +100,42 @@
     },
     {
       "id": 4,
-      "name": "",
+      "name": "南瓜",
       "price": "$25 / 斤 (600g)",
       "src": "images/about-land.jpg",
       "visible": false
     },
     {
       "id": 5,
-      "name": "",
+      "name": "本地蘿蔔",
       "price": "$22 / 斤 (600g)",
       "src": "images/veg-01.jpg",
       "visible": false
     },
     {
       "id": 6,
-      "name": "",
+      "name": "白菜",
       "price": "$26 / 斤 (600g)",
       "src": "images/veg-02.jpg",
       "visible": false
     },
     {
       "id": 7,
-      "name": "",
+      "name": "生菜",
       "price": "$24 / 斤 (600g)",
       "src": "images/veg-02.jpg",
       "visible": false
     },
     {
       "id": 8,
-      "name": "",
+      "name": "菠菜",
       "price": "$30 / 斤 (600g)",
       "src": "images/veg-01.jpg",
       "visible": false
     },
     {
       "id": 9,
-      "name": "",
+      "name": "西蘭花",
       "price": "$36 / 斤 (600g)",
       "src": "images/about-harvest.jpg",
       "visible": false
@@ -221,25 +221,25 @@
     {
       "id": 5,
       "src": "images/hero-02.jpg",
-      "caption": "帶土直送",
+      "caption": "",
       "visible": false
     },
     {
       "id": 6,
       "src": "images/veg-01.jpg",
-      "caption": "菜包內容",
+      "caption": "",
       "visible": false
     },
     {
       "id": 7,
       "src": "images/about-land.jpg",
-      "caption": "雨後農田",
+      "caption": "",
       "visible": false
     },
     {
       "id": 8,
       "src": "images/about-table.jpg",
-      "caption": "餐桌上的當造",
+      "caption": "",
       "visible": false
     }
   ]
