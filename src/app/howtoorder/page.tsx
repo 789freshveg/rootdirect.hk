@@ -108,9 +108,9 @@ export default async function HowToOrderPage() {
               價格及訂購教學
             </SectionTitle>
             <p className="mt-6 max-w-[42ch] text-[18px] leading-[2] text-ink/85 md:text-[19px]">
-              星期一 20:00 截單，
+              星期一 ｜ 20:00 截單
               <br />
-              星期三清晨採摘，11:00–17:00 直送餐桌。
+              星期三 ｜ 清晨採摘，11:00–17:00 直送餐桌
             </p>
           </div>
           <div className="md:col-span-4 md:col-start-9 md:pb-4">
