@@ -49,7 +49,14 @@
     },
     {
       "id": 5,
-      "name": "",
+      "name": "茼蒿",
+      "src": "",
+      "period": "current",
+      "visible": false
+    },
+    {
+      "id": 6,
+      "name": "白菜",
       "src": "",
       "period": "current",
       "visible": false
@@ -65,13 +72,6 @@
       "id": 8,
       "name": "大蕃茄",
       "src": "/uploads/admin/seasonal-1790955188897-95469c0b-4a78-434d-8ef5-0b74b6786e58.jpg",
-      "period": "next",
-      "visible": true
-    },
-    {
-      "id": 6,
-      "name": "西蘭花",
-      "src": "/uploads/admin/seasonal-1790995050535-bf08365d-a47b-42dc-a348-34391586b246.jpg",
       "period": "next",
       "visible": true
     }
@@ -100,42 +100,42 @@
     },
     {
       "id": 4,
-      "name": "南瓜",
+      "name": "",
       "price": "$25 / 斤 (600g)",
       "src": "images/about-land.jpg",
       "visible": false
     },
     {
       "id": 5,
-      "name": "本地蘿蔔",
+      "name": "",
       "price": "$22 / 斤 (600g)",
       "src": "images/veg-01.jpg",
       "visible": false
     },
     {
       "id": 6,
-      "name": "白菜",
+      "name": "",
       "price": "$26 / 斤 (600g)",
       "src": "images/veg-02.jpg",
       "visible": false
     },
     {
       "id": 7,
-      "name": "生菜",
+      "name": "",
       "price": "$24 / 斤 (600g)",
       "src": "images/veg-02.jpg",
       "visible": false
     },
     {
       "id": 8,
-      "name": "菠菜",
+      "name": "",
       "price": "$30 / 斤 (600g)",
       "src": "images/veg-01.jpg",
       "visible": false
     },
     {
       "id": 9,
-      "name": "西蘭花",
+      "name": "",
       "price": "$36 / 斤 (600g)",
       "src": "images/about-harvest.jpg",
       "visible": false
