@@ -46,7 +46,7 @@ export function Hero({
       <div className="absolute inset-0 flex flex-col">
         <div className="mx-auto flex w-full max-w-[1600px] flex-1 flex-col justify-center px-5 pt-14 md:px-10 md:pt-[72px]">
           <span className="eyebrow text-paper/75">{hero.eyebrow}</span>
-          <h1 className="mt-4 max-w-[16ch] font-serif text-[8.6vw] font-black leading-[1.2] tracking-[0.04em] text-paper sm:text-[7vw] md:text-[4.4vw]">
+          <h1 className="mt-4 max-w-[16ch] whitespace-pre-line font-serif text-[8.6vw] font-black leading-[1.2] tracking-[0.04em] text-paper sm:text-[7vw] md:text-[4.4vw]">
             {hero.headline}
           </h1>
           <div className="mt-7 flex flex-wrap items-center gap-4 md:mt-9">
