@@ -68,7 +68,7 @@ export default async function HomePage() {
             </div>
           </Reveal>
           <Reveal delay={0.1} className="md:col-span-5 md:col-start-8 md:pb-2">
-            <p className="max-w-[34ch] text-[19px] leading-[2] text-ink md:text-[20px]">
+            <p className="max-w-[34ch] whitespace-pre-line text-[19px] leading-[2] text-ink md:text-[20px]">
               <HighlightText
                 text={seasonal.currentCopy}
                 target={seasonal.highlight}
