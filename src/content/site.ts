@@ -55,20 +55,18 @@ export const hero = {
 
 /** Icons travel with their label, so reordering never mismatches them. */
 export const sellingPoints = [
-  { n: "01", label: "香港農場", en: "Local Farms", icon: "/icons/point-farm.png" },
+  { n: label: "香港農場", en: "Local Farms", icon: "/icons/point-farm.png" },
   {
-    n: "02",
-    label: "再生農耕，種出菜味",
+    n: label: "再生農耕，種出菜味",
     en: "Regenerative Farming",
     icon: "/icons/point-fertilizer.png",
   },
   {
-    n: "03",
-    label: "清晨採摘，鮮菜直送",
+    n: label: "清晨採摘，鮮菜直送",
     en: "Picked at Dawn",
     icon: "/icons/point-harvest.png",
   },
-  { n: "04", label: "不時不食", en: "Seasonal Only", icon: "/icons/point-seasonal.png" },
+  { n: label: "不時不食", en: "Seasonal Only", icon: "/icons/point-seasonal.png" },
 ] as const;
 
 export const seasonal = {
