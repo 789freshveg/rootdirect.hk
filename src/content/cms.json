@@ -185,14 +185,14 @@
       "key": "fps",
       "name": "轉數快 FPS",
       "detail": "",
-      "image": "images/payments/fps.png"
+      "image": ""
     },
     {
       "id": 3,
       "key": "payme",
       "name": "PayMe",
       "detail": "",
-      "image": "images/payments/payme.png"
+      "image": ""
     }
   ],
   "gallery": [
